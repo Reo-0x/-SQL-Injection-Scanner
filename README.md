@@ -29,7 +29,7 @@ A comprehensive SQL injection vulnerability scanner with support for multiple te
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/sql-injection-scanner
+git clone https://github.com/Reo-0x/sql-injection-scanner
 
 # Install required packages
 pip install -r requirements.txt
