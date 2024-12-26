@@ -31,6 +31,18 @@ A comprehensive SQL injection vulnerability scanner with support for multiple te
 # Clone the repository
 git clone https://github.com/Reo-0x/sql-injection-scanner
 
+# Navigate to the repository folder
+cd sql-injection-scanner
+
+# Set up a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+# On Linux/Mac:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+
 # Install required packages
 pip install -r requirements.txt
 ```
