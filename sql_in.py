@@ -135,7 +135,6 @@ class SQLInjectionTester:
     def test_parameter(self, param: str, payload: str, form: Dict = None) -> Dict:
         """Test a single parameter with a specific payload"""
         try:
-            # Update current scan information
             self.current_scan_info = {
                 "parameter": param,
                 "payload": payload,
@@ -169,7 +168,7 @@ class SQLInjectionTester:
                 # Test URL parameter using session
                 response = self.session.get(base_url, params={param: payload}, verify=False, timeout=10)
             
-            # Enhanced vulnerability detection
+            # vulnerability detection
             is_vulnerable = False
             response_text = response.text.lower()
             
